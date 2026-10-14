@@ -12,7 +12,7 @@ int Tree::getAge() const
 
 void Tree::setAge(int age)
 {
-    this->age = age;
+    this->age = age; 
 }
 
 void Tree::showInfoTree() const
