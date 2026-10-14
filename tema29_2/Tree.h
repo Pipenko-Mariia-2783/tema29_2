@@ -9,6 +9,8 @@ public:
     Tree(int age, Plant p);
 
     int getAge()const;
-    void setAge(int age)
+    void setAge(int age);
+
+    void showInfoTree()const;
 };
 
