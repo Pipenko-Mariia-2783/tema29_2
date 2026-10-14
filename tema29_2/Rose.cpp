@@ -20,3 +20,4 @@ void Rose::showInfo() const
     Plant::showInfo();
     cout << "Length: " << length << " centimeters" << endl;
 }
+ 
