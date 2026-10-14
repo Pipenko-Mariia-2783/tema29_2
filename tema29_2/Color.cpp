@@ -1,7 +1,9 @@
 #include "Color.h"
 
-Color::Color(string color, Plant p)
+Color::Color(string name, string speciesPlant, string color)
 {
+    this->name = name;
+    this->speciesPlant = speciesPlant;
     this->color = color;
 }
 

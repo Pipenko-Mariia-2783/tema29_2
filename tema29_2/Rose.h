@@ -6,7 +6,7 @@ class Rose :
 protected:
     float length;
 public:
-    Rose(float length, Plant p);
+    Rose(string name, string speciesPlant,float length);
 
     float getLength()const;
     void setLength(float length);

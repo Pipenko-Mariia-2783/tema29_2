@@ -35,5 +35,5 @@ void Plant::setSpeciesPl(string speciesPlant)
 void Plant::showInfo() const
 {
     cout << "Name of plant: " << name << endl;
-    cout << "Species of plant: " << name << endl;
+    cout << "Species of plant: " << speciesPlant << endl;
 }

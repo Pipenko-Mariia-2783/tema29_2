@@ -6,7 +6,7 @@ class Tree :
 protected:
     int age;
 public:
-    Tree(int age, Plant p);
+    Tree(string name, string speciesPlant,int age);
 
     int getAge()const;
     void setAge(int age);

@@ -1,7 +1,9 @@
 #include "Rose.h"
 
-Rose::Rose(float length, Plant p)
+Rose::Rose(string name, string speciesPlant, float length)
 {
+    this->name = name;
+    this->speciesPlant = speciesPlant;
     this->length = length;
 }
 

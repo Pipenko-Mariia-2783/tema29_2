@@ -6,7 +6,7 @@ class Color :
 protected:
     string color;
 public:
-    Color(string color, Plant p);
+    Color(string name, string speciesPlant,string color);
 
     string getColor()const;
     void setColor(string color);

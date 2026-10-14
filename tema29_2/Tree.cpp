@@ -1,7 +1,9 @@
 #include "Tree.h"
 
-Tree::Tree(int age, Plant p):Plant(p)
+Tree::Tree(string name, string speciesPlant, int age)
 {
+    this->name = name;
+    this->speciesPlant = speciesPlant;
     this->age = age;
 }
 
