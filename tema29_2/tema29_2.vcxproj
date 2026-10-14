@@ -139,12 +139,14 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Color.cpp" />
     <ClCompile Include="Plant.cpp" />
     <ClCompile Include="Rose.cpp" />
     <ClCompile Include="tema29_2.cpp" />
     <ClCompile Include="Tree.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Color.h" />
     <ClInclude Include="Plant.h" />
     <ClInclude Include="Rose.h" />
     <ClInclude Include="Tree.h" />
